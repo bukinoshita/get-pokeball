@@ -1,6 +1,6 @@
 {
   "name": "get-pokeball",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Get pokeball information",
   "main": "index.js",
   "repository": "https://github.com/bukinoshita/get-pokeball.git",
