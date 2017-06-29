@@ -1,0 +1,25 @@
+{
+  "name": "get-pokeball",
+  "version": "0.0.0",
+  "description": "Get pokeball information",
+  "main": "index.js",
+  "repository": "https://github.com/bukinoshita/get-pokeball.git",
+  "author": "Bu Kinoshita <bukinoshita@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "pokeball",
+    "pokemon",
+    "get-pokeball"
+  ],
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "devDependencies": {
+    "ava": "^0.20.0",
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "space": true,
+    "semicolon": false
+  }
+}
