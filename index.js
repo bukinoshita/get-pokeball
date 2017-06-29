@@ -17,6 +17,7 @@ module.exports = pokeball => {
             d: 255
           }
         })
+        break
 
       case 'greatball':
       case 'great ball':
@@ -32,6 +33,7 @@ module.exports = pokeball => {
             d: 200
           }
         })
+        break
 
       case 'ultraball':
       case 'ultra ball':
@@ -47,6 +49,7 @@ module.exports = pokeball => {
             d: 150
           }
         })
+        break
 
       case 'safariball':
       case 'safari ball':
@@ -62,6 +65,7 @@ module.exports = pokeball => {
             d: 150
           }
         })
+        break
 
       case 'masterball':
       case 'master ball':
@@ -73,9 +77,11 @@ module.exports = pokeball => {
           },
           slug: 'masterball'
         })
+        break
 
       default:
         reject(new TypeError('Pokeball not found'))
+        break
     }
   })
 }
