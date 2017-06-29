@@ -36,7 +36,7 @@ getPokeball('ultra ball')
 
 ### getPokeball(name)
 
-returns an `object`
+returns a `promise`
 
 #### name
 

@@ -3,27 +3,27 @@
 import test from 'ava'
 import m from './'
 
-test('pokeball', t => {
-  t.is(m('pokeball').slug, 'pokeball')
-  t.is(m('poke ball').slug, 'pokeball')
+test('pokeball', async t => {
+  const pokeball = await m('pokeball')
+  t.is(pokeball.slug, 'pokeball')
 })
 
-test('greatball', t => {
-  t.is(m('greatball').slug, 'greatball')
-  t.is(m('great ball').slug, 'greatball')
+test('greatball', async t => {
+  const greatball = await m('greatball')
+  t.is(greatball.slug, 'greatball')
 })
 
-test('ultraball', t => {
-  t.is(m('ultraball').slug, 'ultraball')
-  t.is(m('ultra ball').slug, 'ultraball')
+test('ultraball', async t => {
+  const ultraball = await m('ultraball')
+  t.is(ultraball.slug, 'ultraball')
 })
 
-test('safariball', t => {
-  t.is(m('safariball').slug, 'safariball')
-  t.is(m('safari ball').slug, 'safariball')
+test('safariball', async t => {
+  const safariball = await m('safariball')
+  t.is(safariball.slug, 'safariball')
 })
 
-test('masterball', t => {
-  t.is(m('masterball').slug, 'masterball')
-  t.is(m('master ball').slug, 'masterball')
+test('masterball', async t => {
+  const masterball = await m('masterball')
+  t.is(masterball.slug, 'masterball')
 })
