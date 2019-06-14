@@ -2,15 +2,14 @@
 
 > Get pokeball information
 
-
 ## Install
 
 ```
-$ npm install --save get-pokeball
+$ yarn add get-pokeball
 ```
 
-
 ## Usage
+
 ```js
 const getPokeball = require('get-pokeball')
 
@@ -31,7 +30,6 @@ getPokeball('ultra ball')
 */
 ```
 
-
 ## API
 
 ### getPokeball(name)
@@ -41,11 +39,10 @@ returns a `promise`
 #### name
 
 Type: `string`<br/>
-Options: `pokeball`, `masterball`, `greatball`, `ultraball`,  `safariball`<br/>
+Options: `pokeball`, `masterball`, `greatball`, `ultraball`, `safariball`<br/>
 Required
 
 Pokeball's name
-
 
 ## Related
 
@@ -56,7 +53,6 @@ Pokeball's name
 - [pokeball-shake](https://github.com/bukinoshita/pokeball-shake) — Algorithm to determine how many times pokeball shakes
 - [pokemon-capture-quote](https://github.com/bukinoshita/pokemon-capture-quote) — Pokemon capture quote
 - [pokemon-f](https://github.com/bukinoshita/pokemon-f) — Algorithm to calculate `f` on capture pokemon method
-
 
 ## License
 

@@ -1,7 +1,8 @@
-'use strict'
-
+// Packages
 import test from 'ava'
-import m from './'
+
+// Root
+import m from '.'
 
 test('pokeball', async t => {
   const pokeball = await m('pokeball')
