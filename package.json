@@ -22,7 +22,7 @@
     "ava": "2.4.0",
     "eslint-config-prettier": "6.10.0",
     "husky": "4.2.1",
-    "lint-staged": "10.0.2",
+    "lint-staged": "10.1.7",
     "prettier": "1.19.1",
     "xo": "0.25.3"
   },
