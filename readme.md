@@ -11,9 +11,9 @@ $ yarn add get-pokeball
 ## Usage
 
 ```js
-const getPokeball = require('get-pokeball')
+import { getPokeball } from 'get-pokeball'
 
-getPokeball('ultra ball')
+getPokeball('ultraball')
 /*
 {
   name: 'Ultra ball',
@@ -34,12 +34,10 @@ getPokeball('ultra ball')
 
 ### getPokeball(name)
 
-returns a `promise`
-
 #### name
 
 Type: `string`<br/>
-Options: `pokeball`, `masterball`, `greatball`, `ultraball`, `safariball`<br/>
+Options: [Pokeballs](https://github.com/bukinoshita/get-pokeball/blob/master/source/types.ts)<br/>
 Required
 
 Pokeball's name
