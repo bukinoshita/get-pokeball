@@ -23,6 +23,10 @@ Object {
     "sell": "cannot be sold",
   },
   "slug": "masterball",
+  "value": Object {
+    "d": 0,
+    "f": 0,
+  },
 }
 `;
 
