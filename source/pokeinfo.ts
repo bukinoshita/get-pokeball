@@ -56,5 +56,9 @@ export const pokeInfo = {
       sell: 'cannot be sold',
     },
     slug: 'masterball',
+    value: {
+      f: 0,
+      d: 0,
+    },
   },
 }
