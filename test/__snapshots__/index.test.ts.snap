@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`get greatball 1`] = `
+Object {
+  "name": "Great ball",
+  "price": Object {
+    "buy": 600,
+    "sell": 300,
+  },
+  "slug": "greatball",
+  "value": Object {
+    "d": 200,
+    "f": 8,
+  },
+}
+`;
+
+exports[`get masterball 1`] = `
+Object {
+  "name": "Master ball",
+  "price": Object {
+    "buy": "cannot be bought",
+    "sell": "cannot be sold",
+  },
+  "slug": "masterball",
+}
+`;
+
+exports[`get pokeball 1`] = `
+Object {
+  "name": "Poké ball",
+  "price": Object {
+    "buy": 200,
+    "sell": 100,
+  },
+  "slug": "pokeball",
+  "value": Object {
+    "d": 255,
+    "f": 12,
+  },
+}
+`;
+
+exports[`get safariball 1`] = `
+Object {
+  "name": "Safari ball",
+  "price": Object {
+    "buy": "cannot be bought",
+    "sell": "cannot be sold",
+  },
+  "slug": "safariball",
+  "value": Object {
+    "d": 150,
+    "f": 12,
+  },
+}
+`;
+
+exports[`get ultraball 1`] = `
+Object {
+  "name": "Ultra ball",
+  "price": Object {
+    "buy": 1200,
+    "sell": 600,
+  },
+  "slug": "ultraball",
+  "value": Object {
+    "d": 150,
+    "f": 12,
+  },
+}
+`;
